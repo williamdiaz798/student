@@ -39,5 +39,5 @@ jobs:
         app-name: 'studentRegristrationWEEM'
         slot-name: 'production'
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1645e6779e484583bdf61b017b958fd0 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_79b9aa986c7a4d2dafc2e3d3980bf1c5 }}
   
