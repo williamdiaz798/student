@@ -45,13 +45,11 @@ class App extends Component {
   }
 
   mostrarAlerta = (registro) =>{
-    var mensaje
-    var color
     MySwal.fire({
         title: 'Desea eliminar el usuario con registro: ' + registro,
         icon: 'warning',
         showCancelButton: true,
-        confirmButtonColor: color,
+        confirmButtonColor: '#3085d6',
         cancelButtonColor: '#3085d6',
         confirmButtonText: 'Si, eliminar'
       }).then((result) => {
@@ -84,7 +82,7 @@ class App extends Component {
 
   abrirCerrarModalEditar=(id)=>{
     if(this.state.modalEditar == false){
-      this.state.estudiantes.map(estudiante =>{
+      this.state.estudiantes.map((estudiante) =>{
         if(estudiante.registrationNumber == id){
           this.setState({
             estudiante:{
