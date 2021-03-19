@@ -82,7 +82,7 @@ class App extends Component {
 
   abrirCerrarModalEditar=(id)=>{
     if(this.state.modalEditar === false){
-      this.state.estudiantes.map((estudiante) {
+      this.state.estudiantes.forEach((estudiante) =>{
         if(estudiante.registrationNumber === id){
           this.setState({
             estudiante:{
