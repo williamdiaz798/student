@@ -92,7 +92,7 @@ class App extends Component {
             },
             modalEditar: !this.state.modalEditar
           })
-          console.log(this.state.estudiante)
+          return estudiante
         }
       })
     }else{
