@@ -82,7 +82,7 @@ class App extends Component {
 
   abrirCerrarModalEditar=(id)=>{
     if(this.state.modalEditar === false){
-      this.state.estudiantes.map((estudiante) =>{
+      this.state.estudiantes.map((estudiante) {
         if(estudiante.registrationNumber === id){
           this.setState({
             estudiante:{
@@ -92,7 +92,6 @@ class App extends Component {
             },
             modalEditar: !this.state.modalEditar
           })
-          return estudiante
         }
       })
     }else{
