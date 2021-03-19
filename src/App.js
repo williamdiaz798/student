@@ -165,11 +165,6 @@ class App extends Component {
       <div className="container white position-sticky" style={mobalStyle}>
         <br/>
         <h2>Agregar estudiante</h2>
-          {this.state.success === true &&
-              <div id="error" className="alert alert-success ocultar">
-                  {this.state.errorMSG}
-              </div>
-          }
           <form onSubmit={this.manejadorSubmit} method="POST" id='formUser'>
             <div className="mb-3">
               <label className="labelCorreo">Nombre</label>
