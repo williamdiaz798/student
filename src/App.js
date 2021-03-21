@@ -120,6 +120,7 @@ class App extends Component {
     axios.post(url, this.state.estudiante)
     .then( response =>{
       this.componentDidMount()
+      this.abrirCerrarModalInsertar()
     }).catch(error =>{
         console.log(error)
         this.setState({
@@ -135,6 +136,7 @@ class App extends Component {
     axios.put(url, this.state.estudiante)
     .then( response =>{
       this.componentDidMount()
+      this.abrirCerrarModalEditar()
     }).catch(error =>{
         console.log(error)
         this.setState({

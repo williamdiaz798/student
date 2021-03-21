@@ -17,7 +17,7 @@
     "sweetalert2-react-content": "^3.3.1",
     "axios": "^0.21.1"
   },
-    "scripts": {
+  "scripts": {
     "start": "react-scripts start"
   },
   "eslintConfig": {
@@ -37,5 +37,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamdiaz798/student.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamdiaz798/student/issues"
+  },
+  "homepage": "https://github.com/williamdiaz798/student#readme"
 }
